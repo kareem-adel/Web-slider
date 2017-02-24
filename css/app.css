@@ -1,0 +1,34 @@
+.clear {
+    clear: both;
+}
+
+body{
+  margin: 0px;
+}
+
+.myslider {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.mimages_container {
+    height: 100%;
+    position: relative;
+    margin-left: -100%;
+}
+
+.slide {
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.slider_nav {
+    display: block;
+    width: auto;
+    height: auto;
+}
